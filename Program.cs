@@ -7,6 +7,7 @@ namespace testprogramm
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Commit add");
             Random randNum = new Random();
             Console.Write("How much enter numbers?: ");
             int Value = Convert.ToInt32(Console.ReadLine());
